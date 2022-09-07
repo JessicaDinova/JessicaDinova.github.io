@@ -28,7 +28,7 @@ main{
     margin: 0 auto;
     flex: 1 1 0%
  }
-ul {
+.menulink {
     list-style-type: none;
    
     padding: 0;
@@ -119,4 +119,18 @@ footer
 .link:hover {
     background-color: #A8D8C0;
     color: black;
+  }
+
+  .aboutme{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .aboutmetag{
+    float: left;
+    border-right: 0;
+  }
+
+  .spiderman{
+    padding-left: 600px;
   }

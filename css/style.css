@@ -5,7 +5,6 @@ header{
 aside{
     background-color: #DAFCD5;
     width: 300px;
-    height: 84.5vh;
 }
 nav{
     background-color: #A8D8C0;
@@ -15,7 +14,7 @@ nav{
 body{
     background-color: black;
     text-align: center;
-    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -24,8 +23,10 @@ footer{
 }
 main{
     background-color: white;
-    min-height: 100%;
-    flex: 1;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex: 1 1 0%
  }
 ul {
     list-style-type: none;
@@ -89,4 +90,11 @@ html{
 
 html,body {
     height: 100%;
+}
+
+footer
+{
+ height: 50px;
+ text-align: center;
+ font-size: 30px;
 }

@@ -7,6 +7,7 @@ aside{
     background-color: #DAFCD5;
     width: 300px;
     margin-right: 20px;
+    align-items: center;
 }
 nav{
     background-color: #A8D8C0;
@@ -79,6 +80,7 @@ main{
   article{
     padding-top: 20px;
     padding-left: 20px;
+    
   }
 
 html{
@@ -87,6 +89,7 @@ html{
   section{
     display: flex;
     flex: 1;
+
   }
 
 html,body {
@@ -98,6 +101,7 @@ footer
  height: 50px;
  text-align: center;
  font-size: 30px;
+ color:#A8D8C0;
 }
 
 .link{
@@ -134,11 +138,14 @@ footer
 .blogpost{
   text-align: left;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-right: 20px;
+  margin-right: 10px;
   margin-top: 20px;
-  margin-bottom: 400px;
+  margin-bottom: 0;
   border: solid 5px #7DB3AA;
   padding-bottom: 5px;
+  margin-bottom: 340px;
+  padding-left: 15px;
+ 
 }
 h3{ font-weight:normal; }
 
@@ -160,4 +167,14 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+.div{
+  text-align:center ;
+}
+
+.divimage{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align:center
 }

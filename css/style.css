@@ -1,10 +1,12 @@
 header{
     font-size: 50px;
     background-color: #7DB3AA;
+    text-align: center;
 }
 aside{
     background-color: #DAFCD5;
     width: 300px;
+    margin-right: 20px;
 }
 nav{
     background-color: #A8D8C0;
@@ -12,8 +14,7 @@ nav{
     top: 0;
 }
 body{
-    background-color: black;
-    text-align: center;
+    background-color: white;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -30,7 +31,6 @@ main{
  }
 .menulink {
     list-style-type: none;
-   
     padding: 0;
     overflow: hidden;
     background-color: #A8D8C0;
@@ -73,6 +73,7 @@ main{
   p{
     font-size: 25px;
     text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   article{
@@ -130,7 +131,33 @@ footer
     float: left;
     border-right: 0;
   }
+.blogpost{
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 400px;
+  border: solid 5px #7DB3AA;
+  padding-bottom: 5px;
+}
+h3{ font-weight:normal; }
 
-  .spiderman{
-    padding-left: 600px;
-  }
+details {
+  display: block;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+ height: 100px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

@@ -22,6 +22,7 @@ body{
 }
 footer{
     background-color: #A8D8C0;
+    width: 100%;
 }
 main{
     background-color: white;
@@ -36,7 +37,7 @@ main{
     overflow: hidden;
     background-color: #A8D8C0;
     top: 0;
-  width: 100%;  
+    width: 100%; 
   }
   
   li {
@@ -59,7 +60,7 @@ main{
   }
 
   .active {
-    background-color: #A8D8C0;
+    background-color: #5C8E92;
   }
 
   li:last-child {
@@ -138,13 +139,14 @@ footer
 .blogpost{
   text-align: left;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-right: 10px;
+  margin-right: 20px;
   margin-top: 20px;
-  margin-bottom: 0;
   border: solid 5px #7DB3AA;
+  border-radius: 25px;
   padding-bottom: 5px;
-  margin-bottom: 340px;
+  margin-bottom: 10px;
   padding-left: 15px;
+  padding-bottom: 20px;
  
 }
 h3{ font-weight:normal; }
@@ -177,4 +179,54 @@ tr:nth-child(even) {
   margin-top: 40px;
   margin-bottom: 40px;
   text-align:center
+}
+
+.blog{
+  display: grid;
+}
+
+.prof_blog{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.prof_art{
+
+  margin-top: 15px;
+  width: 100%;
+  margin-right: 15px;
+  padding-right: 20px;
+  
+ 
+}
+.blog_aside{
+  background-color: #dafcd555;
+  width: 300px;
+  align-items: center;
+  margin-right: 0;
+  border: 7px solid #DAFCD5;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  padding: 60px;
+}
+
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.title_blog{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logos{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 220px;
+  margin-top: 350px;
 }

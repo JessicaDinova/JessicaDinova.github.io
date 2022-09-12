@@ -158,17 +158,17 @@ details {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
- height: 100px;
+  height: 100px;
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 2px solid #A3C39E;
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 2px solid #A3C39E;
   text-align: left;
   padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
 }
 
 .div{
@@ -229,4 +229,30 @@ tr:nth-child(even) {
   flex-direction: column;
   gap: 220px;
   margin-top: 350px;
+}
+
+.table_text{
+  text-align: center;
+}
+
+.rows{
+background-color: #a8d8c073;
+}
+
+.table_chart{
+  display: grid;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+progress{
+  margin-top: 20px;
+  width: 100%;
+}
+
+.progress_bar{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }

@@ -42,7 +42,6 @@ main{
   
   li {
     float: left;
-    border-right: 1px solid #92c4ab;
   }
   
   li a {
@@ -106,7 +105,7 @@ footer
 }
 
 .link{
-    display: block;
+  display: block;
   color: black;
   padding: 8px 16px;
   text-decoration: none;
@@ -127,15 +126,6 @@ footer
     color: black;
   }
 
-  .aboutme{
-    font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-  }
-
-  .aboutmetag{
-    float: left;
-    border-right: 0;
-  }
 .blogpost{
   text-align: left;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -275,4 +265,8 @@ h4{
 details:hover {
   background-color: #a8d8c0d0;
   color: black;
+}
+
+.questions{
+  margin-left: 40px;
 }

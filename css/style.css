@@ -218,8 +218,9 @@ td, th {
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 220px;
-  margin-top: 350px;
+  gap: 180px;
+  margin-top: 370px;
+
 }
 
 .table_text{

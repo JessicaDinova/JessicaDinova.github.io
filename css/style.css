@@ -9,6 +9,7 @@ nav{
     background-color: #A8D8C0;
     position: sticky;
     top: 0;
+    z-index: 99;
 }
 body{
     background-color: white;
@@ -122,14 +123,17 @@ footer
 .blogpost{
   text-align: left;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-right: 20px;
+  margin-right: 40px;
   margin-top: 20px;
-  border: solid 5px #7DB3AA;
+
   border-radius: 25px;
   padding-bottom: 5px;
   margin-bottom: 10px;
   padding-left: 15px;
   padding-bottom: 20px;
+  margin-left: 20px;
+  background-color: #dafcd555;
+  border: 7px solid #DAFCD5;
  
 }
 h3{ font-weight:normal; }
@@ -166,6 +170,7 @@ td, th {
   margin-bottom: 40px;
   text-align:center
 }
+
 
 .blog{
   display: grid;
@@ -275,6 +280,19 @@ width: 100%;
 font-size: 50px;
 gap: 50px;
 padding-left: 30px;
+
+}
+
+.index_art{
+  animation-name: slide_in;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+position: relative;
+}
+
+@keyframes slide_in{
+  from {left: -800px;}
+  to {left: 0px;}
 }
 
 .index_page{
@@ -289,34 +307,29 @@ padding-left: 30px;
 
 }
 .index_paragraphs{
-  padding: 270px;
-  display: block;
-  align-items: center;
-  
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   width: 100%;
   background-color:#a8d8c0bb ;
 
 }
+
 .index_p{
-  font-size: 18px;
+  font-size: 23px;
  
 }
 
 .index_li{
   margin-left: 80px;
-  font-size: 18px;
+  font-size: 23px;
 }
 .index_list2{
   margin-left: 30px;
-}
-.app_links{
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  margin-top: 60px;
-  gap: 80px;
-  margin-bottom: 20px;
-  width: 100%;
 }
 
 .index_title{
@@ -331,8 +344,93 @@ padding-left: 30px;
 }
 .index_text{
   background-color: white;
-  padding: 80px;
+  padding: 50px;
   border-radius: 20px;
+  border: 5px solid #A8D8C0;
+
+}
+.index_paragraph1{
+  align-items: center;
+  gap: 100px;
+  margin-right: 100px;
+  margin-left: 30px;
+}
+
+.index_paragraph2{
+  align-items: center;
+  padding: 200px;
+  padding-top: 0;
+  padding-bottom: 0;
+  gap: 80px;
+}
+
+.profile_page{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+
+}
+.about_me{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+ 
+}
+
+.profile_p{
+  font-size: 28px;
+  font-weight: normal;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.profile_img{
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.profile_t{
+  font-size: 33px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.book_game{
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  align-items: center;
+
+  font-size: 28px;
+}
+
+.p_list{
+  font-size: 30px ;
+}
+
+.blog_text{
+  font-size: 25px;
+}
+
+.swot_page{
+  display: flex;
+  flex-direction: column;
+}
+
+.home_img{
+  border-radius: 100%;
   border: 5px solid #A8D8C0;
 }
 
+.home_links{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+ 
+}
+
+.link_img{
+  border-radius: 100%;
+  border: 5px solid #A8D8C0;
+}

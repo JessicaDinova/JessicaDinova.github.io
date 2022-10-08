@@ -286,7 +286,7 @@ padding-left: 30px;
 
 .index_art{
   animation-name: slide_in;
-animation-duration: 2s;
+animation-duration: 3s;
 animation-fill-mode: forwards;
 position: relative;
 }

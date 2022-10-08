@@ -1,0 +1,62 @@
+.profile_page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .games_list{
+    font-weight: normal;
+}
+
+.about_me{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+.profile_img{
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+
+.about_text{
+    font-weight: normal;
+}
+
+.movies{
+    font-weight: normal;
+}
+
+.profile_t{
+    font-size: 33px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+
+.profile_p{
+    font-size: 28px;
+    font-weight: normal;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+.book_game_movie{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    align-items: center;
+    font-size: 28px;
+  }
+
+.books{
+    font-weight: normal;
+}
+
+.p_list{
+    font-size: 30px ;
+  }
+
+.games_li{
+    font-weight: normal;
+}

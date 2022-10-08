@@ -1,0 +1,62 @@
+.prof_art{
+    margin-top: 15px;
+    width: 100%;
+    margin-right: 15px;
+    padding-right: 20px;
+  }
+
+.prof_blog{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+.title_blog{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.blog_aside{
+    background-color: #dafcd555;
+    width: 300px;
+    align-items: center;
+    margin-right: 0;
+    border: 7px solid #DAFCD5;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding: 60px;
+  }
+
+.logos{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 180px;
+    margin-top: 370px;  
+  }
+
+.blog_text{
+    font-size: 25px;
+  }
+
+.table_chart{
+    display: grid;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+.table_text{
+  text-align: center;
+  }
+
+.rows{
+  background-color: #a8d8c073;
+  }
+
+.swot_page{
+    display: flex;
+    flex-direction: column;
+    }

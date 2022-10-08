@@ -1,0 +1,25 @@
+.table_chart{
+    display: grid;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    }
+
+.rows{
+    background-color: #a8d8c073;
+    }
+
+.table_text{
+    text-align: center;
+    }
+
+.progress_bar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    }
+
+progress{
+    margin-top: 20px;
+    width: 100%;
+    }

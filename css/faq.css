@@ -1,0 +1,35 @@
+.faq{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+    font-size: 22px;
+  }
+.questions{
+    margin-left: 40px;
+  }
+
+.answer{
+    font-weight: normal;
+}
+
+details {
+    display: block;
+    border: 2px solid #A3C39E;
+    padding: 10px;
+    border-radius: 10px;
+    animation-name: slide_up;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    position: relative;
+  }
+
+.link_faq{
+    font-weight: normal;
+}
+
+@keyframes slide_up{
+  from {right: -1200px;}
+  to {right: 0px;}
+}

@@ -20,6 +20,24 @@
     }
 
 progress{
-    margin-top: 20px;
+    margin-top: 7px;
     width: 100%;
+    -webkit-appearance: none;
+    }
+
+::-webkit-progress-value {
+    background-color: #A8D8C0;
+    }
+
+.line {
+    background-color: #FFB1B4;
+    position: absolute;
+    width: 5px;
+    height: 30px;
+    left: 1180px;
+    }
+
+.dashboard_tab {
+    display: inline-block;
+    margin-left: 540px;
     }

@@ -5,7 +5,7 @@
     align-items: center;
   }
 
-  .games_list{
+.games_list{
     font-weight: normal;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .p_list{
-    font-size: 30px ;
+    font-size: 30px;
   }
 
 .games_li{

@@ -24,7 +24,6 @@
 .profile_img{
     border-radius: 20px;
     margin-right: 20px;
-    border: 5px solid #DAFCD5;
   }
 
 .about_text{
@@ -53,15 +52,15 @@
     margin-bottom: 10px;
   }
 
-.book_game_movie{
+.qualities_game_movie{
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 90px;
     align-items: center;
     font-size: 28px;
   }
 
-.books{
+.qualities{
     font-weight: normal;
     background-color: #dafcd555;
     border: 7px solid #DAFCD5;

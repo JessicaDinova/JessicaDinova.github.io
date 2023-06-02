@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/joke.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Joke</title>
+  </head>
+  <body>
+    <nav>
+        <ul class="menulink">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="active" ><a href="joke.html">Random joke</a></li>
+        </ul>
+      </nav>
+      <section>
+        <main>
+            <div class="jokeLayout">
+                <div class="jokePlaceHolder">
+                    <div class="image">
+                        <img src="/resources/smile.jpg" alt="smile">
+                    </div>
+                    <article class="jokeText">
+                        <p id="jokeSetup"></p>
+                        <p id="jokePunchline"></p>
+                    </article>
+                    <div class="newJokeDiv">
+                        <button id="newJokeButton">New joke</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+      </section>
+      <script src="js/jokeAPI.js"></script>
+  </body>
+</html>
